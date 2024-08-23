@@ -1,3 +1,5 @@
+from caesarcipherletters import alphabet
+
 def encrypt(plain_text, shift_amount):
   cipher_text = ""
   for letter in plain_text:
